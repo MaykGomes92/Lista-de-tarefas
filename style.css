@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parteCima{
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #c5e0dc;
+}
+
+.parteCima h1{
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.37);
+}
+
+.parteCima #btn{
+    width: 400px;
+    margin: auto;
+    margin-top: 7px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+
+.parteCima #btn:hover{
+    background-color: #5e8b85;
+    color: white;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 400px;
+    margin: auto;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(32, 31, 31);
+    text-align: center;
+}
+
+.active{
+    background-color: #fafcd3;
+    padding: 50px;
+    min-height: 727px;
+}
+
+ul li{
+    width: 100%;
+    padding: 19px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 30px;
+    font-size: 1.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.61);
+    letter-spacing: 1px;
+    border-bottom: solid 3px rgb(150, 72, 72);
+    border-right: solid 3px rgb(150, 72, 72);
+    line-height: 28px;
+}
+
+ul li h2{
+    font-size: 1.4rem;
+}
+
+ul li button {
+    padding: 5px 20px;    
+    width: 100px;
+    height: 30px;
+    display: grid;
+    transition: all 0.5s linear;
+    cursor: pointer;
+    border-radius: 9px;
+    border: solid 2px cornflowerblue;
+}
+
+ul li button:hover{
+    background-color: rgba(100, 148, 237, 0.466);
+    color: white;
+}
+
+@media (max-width: 913px) {
+    ul li {
+        font-size: 2rem;
+    }
+
+    ul li .apagar {
+        font-size: 1.3rem;
+        width: 140px;
+        align-items: center;
+        height: 50px;
+    }
+
+    .parteCima h1{
+        font-size: 4rem;
+    }
+
+    .parteCima #btn{
+        width: 600px;
+        font-size: 2rem;
+    }
+
+    input{
+        width: 600px;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 540px){
+    body{
+        overflow-x: hidden;
+    }
+    ul li{
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    ul li .apagar{
+        font-size: 1rem;
+        width: 65px;
+        height: 30px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+    }
+    ul,input{
+        width: 100%;
+    }
+    .parteCima #btn{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    input {
+        font-size: 1.2rem;
+    }
+
+    .parteCima h1{
+        font-size: 2rem;
+    }
+}
