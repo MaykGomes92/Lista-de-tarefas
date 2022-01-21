@@ -1,7 +1,7 @@
 # Sobre o projeto
 
 * Uma lista de tarefas, feita com html, css e Javascript
-
+* Uma página responsiva e com efeitos.
 
 ![img-lista-git](https://user-images.githubusercontent.com/77819811/148655271-fee04d93-a00d-4235-b536-185592a98df3.jpg)
 
