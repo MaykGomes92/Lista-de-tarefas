@@ -4,10 +4,9 @@
 * Uma página responsiva e com efeitos.
 
 #
-
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 <a href='https://lista-tarefas-two.vercel.app/'>Visite o site</a>
 #
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 ![img-lista-git](https://user-images.githubusercontent.com/77819811/148655271-fee04d93-a00d-4235-b536-185592a98df3.jpg)
 
 ## Curiosidades sobre o projeto
