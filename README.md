@@ -20,7 +20,7 @@
 
 ## Responsividade 
 
-* Utilização de Media queries para se adaptar a diversos dispositivos
+* Utilização de Media queries para se adaptar a diversos dispositivos.
 * Celulares, Tablets e TV.
 
 ![lista-response-git](https://user-images.githubusercontent.com/77819811/148655341-6738b35e-8e77-4108-b5ac-9b98d4ed5d24.jpg)
