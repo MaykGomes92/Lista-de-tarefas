@@ -3,6 +3,7 @@
 * Uma lista de tarefas, feita com html, css e Javascript
 * Uma página responsiva e com efeitos.
 
+<a href="https://www.linkedin.com/in/mayk-gomes-11b86222b/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/><a/>
 #
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 <a href='https://lista-tarefas-two.vercel.app/'>Visite o site</a>
