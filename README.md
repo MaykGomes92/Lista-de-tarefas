@@ -1,4 +1,4 @@
-# Sobre o projeto
+# Lista de Tarefas
 
 * Uma lista de tarefas, feita com html, css e Javascript
 * Uma página responsiva e com efeitos.
